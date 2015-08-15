@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/paddingTopBottonLayout"
+    android:paddingLeft="@dimen/paddingRigthLeftLayout"
+    android:paddingRight="@dimen/paddingRigthLeftLayout"
+    android:paddingTop="@dimen/paddingTopBottonLayout"
+    tools:context="com.hetherlat.numerallove.MuestraCompatibilidadActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_views"
+        android:background="@color/YellowGreen"
+
+        android:padding="@dimen/pading_title"
+        android:text="@string/mca_TitleActvity"
+
+        android:textColor="@color/DarkRed"
+        android:textSize="@dimen/xxlarge" />
+
+    />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgNumeroPersona1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cropToPadding="false"
+            android:focusable="false"
+            android:longClickable="false"
+            android:scaleType="center"
+            android:src="@mipmap/ic_andy"
+            android:layout_weight=".4"/>
+        <ImageView
+            android:id="@+id/imgSuma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cropToPadding="false"
+            android:focusable="false"
+            android:longClickable="false"
+            android:scaleType="center"
+            android:src="@mipmap/ic_comp_sumar"
+            android:layout_weight=".2"/>
+        <ImageView
+            android:id="@+id/imgNumeroPersona2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cropToPadding="false"
+            android:focusable="false"
+            android:longClickable="false"
+            android:scaleType="center"
+            android:src="@mipmap/ic_andy"
+            android:layout_weight=".4"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txvTituloCompatibilidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_views"
+        android:background="@color/YellowGreen"
+
+        android:padding="@dimen/pading_title"
+        android:text="@string/mca_TitleActvity"
+
+        android:textColor="@color/DarkRed"
+        android:textSize="@dimen/xxlarge" />
+
+    />
+
+    <ImageView
+        android:id="@+id/imgNivelCompatibilidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:cropToPadding="false"
+        android:focusable="false"
+        android:longClickable="false"
+        android:scaleType="center"
+        android:src="@mipmap/ic_andy" />
+    <TextView
+        android:id="@+id/txvDescripcionCompatibilidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/DemoString" />
+</LinearLayout>

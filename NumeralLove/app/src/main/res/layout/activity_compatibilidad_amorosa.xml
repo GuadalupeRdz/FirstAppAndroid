@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/paddingTopBottonLayout"
+    android:paddingLeft="@dimen/paddingRigthLeftLayout"
+    android:paddingRight="@dimen/paddingRigthLeftLayout"
+    android:paddingTop="@dimen/paddingTopBottonLayout"
+    tools:context="com.hetherlat.numerallove.CompatibilidadAmorosaActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_views"
+        android:text="@string/cam_TitleActvity"
+
+        android:background="@color/YellowGreen"
+        android:padding="@dimen/pading_title"
+
+        android:textColor="@color/DarkRed"
+        android:textSize="@dimen/xxlarge" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_views"
+        android:text="@string/cam_FechaPersona1"
+
+        android:background="@color/Aquamarine"
+        android:textSize="@dimen/small" />
+
+    <EditText
+        android:id="@+id/edtFechaPersona1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autoText="false"
+        android:editable="false"
+        android:inputType="date"
+        android:ems="10"
+        android:focusableInTouchMode="true"
+        android:labelFor="@string/cam_FechaPersona1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_views"
+        android:text="@string/cam_FechaPersona2"
+
+        android:background="@color/Aquamarine"
+        android:textSize="@dimen/small" />
+
+    <EditText
+        android:id="@+id/edtFechaPersona2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autoText="false"
+        android:editable="false"
+        android:inputType="date"
+        android:ems="10"
+        android:focusableInTouchMode="true"
+        android:textSize="@dimen/small"
+        android:labelFor="@string/cam_FechaPersona2"/>
+
+    <Button
+        android:id="@+id/btnCalcularCompatibilidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cam_TextoBotonCaulcular" />
+</LinearLayout>

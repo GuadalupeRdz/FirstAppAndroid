@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/paddingTopBottonLayout"
+    android:paddingLeft="@dimen/paddingRigthLeftLayout"
+    android:paddingRight="@dimen/paddingRigthLeftLayout"
+    android:paddingTop="@dimen/paddingTopBottonLayout"
+    tools:context="com.hetherlat.numerallove.NumeroPersonalidadActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/margin_views"
+        android:text="@string/npa_TitleActivity"
+
+        android:background="@color/YellowGreen"
+        android:padding="@dimen/pading_title"
+
+        android:textColor="@color/DarkRed"
+        android:textSize="@dimen/xxlarge" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_views"
+        android:text="@string/npa_TextoFechaPersona"
+
+        android:background="@color/Aquamarine"
+        android:textSize="@dimen/small" />
+
+    <EditText
+        android:id="@+id/edtFechaPersona"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:inputType="date"
+        android:ems="10"
+        android:labelFor="@string/npa_TextoFechaPersona"
+        android:focusableInTouchMode="true"
+         />
+
+    <Button
+        android:id="@+id/btnCalcularNumeroPersonalidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/npa_TextoBotonCalcular" />
+</LinearLayout>

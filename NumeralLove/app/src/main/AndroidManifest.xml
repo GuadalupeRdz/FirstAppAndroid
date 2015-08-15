@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hetherlat.numerallove" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_ico_app"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Principal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SecondActivityTest"
+            android:label="@string/title_activity_second_activity_test" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_principal" >
+        </activity>
+        <activity
+            android:name=".AcercaDeActivity"
+            android:label="@string/title_activity_acerca_de" >
+        </activity>
+        <activity
+            android:name=".NumeroPersonalidadActivity"
+            android:label="@string/title_activity_numero_personalidad" >
+        </activity>
+        <activity
+            android:name=".CompatibilidadAmorosaActivity"
+            android:label="@string/title_activity_compatibilidad_amorosa" >
+        </activity>
+        <activity
+            android:name=".MuestraNumeroPersonalidadActivity"
+            android:label="@string/title_activity_muestra_numero_personalidad" >
+        </activity>
+        <activity
+            android:name=".MuestraCompatibilidadActivity"
+            android:label="@string/title_activity_muestra_compatibilidad" >
+        </activity>
+    </application>
+
+</manifest>

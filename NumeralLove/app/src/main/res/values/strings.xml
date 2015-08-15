@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Numerical Love</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+
+    <!--StringsDemosPracticas-->
+    <!--string name="FechaDefault">31/12/2000</string>
+   <string name="MensajeToastFormatoFecha">Fecha: dd/mm/yyy</string-->
+    <string name="title_activity_principal">TITULO</string>
+    <string name="title_activity_second_activity_test">Second Activity Test</string>
+
+
+    <!--Strings Activities Template-->
+    <string name="title_activity_numero_personalidad">Calculo Numero Personalidad</string>
+    <string name="title_activity_muestra_numero_personalidad">Tu Numero Es</string>
+    <string name="title_activity_compatibilidad_amorosa">Calculo Compatibilidad</string>
+    <string name="title_activity_muestra_compatibilidad">Tipo Compatibilidad</string>
+    <string name="title_activity_acerca_de">About...</string>
+
+
+
+    <!--String SecondActivity-->
+    <string name="DemoString">Demo</string>
+    <string name="DemoResumenCompatibilidad">Los 7 no soportan a los débiles </string>
+    <!--Strings activity_main-->
+    <string name="TextoFechaPersona1">Tu Fecha Nacimiento:</string>
+    <string name="TextoFechaPersona2">Fecha de Tu "Prospecto":</string>
+    <string name="TextoBotonCaulcular">Calcular</string>
+
+
+    <!--Strings Mostrar Numero Personalidad-->
+    <string name="mnp_Nombre_Personalidad1">Individualidad</string>
+    <string name="mnp_Nombre_Personalidad2">Cooperación</string>
+    <string name="mnp_Nombre_Personalidad3">Placer</string>
+    <string name="mnp_Nombre_Personalidad4">Organizacion y Practicidad</string>
+    <string name="mnp_Nombre_Personalidad5">Libertad</string>
+    <string name="mnp_Nombre_Personalidad6">Hogar y Familia</string>
+    <string name="mnp_Nombre_Personalidad7">Sabiduria y Conocimiento</string>
+    <string name="mnp_Nombre_Personalidad8">Éxitos</string>
+    <string name="mnp_Nombre_Personalidad9">Compación</string>
+    <string name="mnp_Nombre_Personalidad0">N/A</string>
+
+    <string name="mnp_Desc_Personalidad1">Son originales, pioneros y líderes por naturaleza. Están a gusto y se desenvuelven mejor en cargos de poder, teniendo la voz de mando. Son los jefes, pastores, predicadores y líderes natos, honestos y voluntariosos, aunque no tan buenos jugadores de equipo ni subordinados. </string>
+    <string name="mnp_Desc_Personalidad2">Son excelentes trabajadores en equipo y necesitan rodearse o estar acompañados para prosperar y desarrollarse. Buscan los pares, la dualidad, apoyan la tolerancia y la diversidad como bases de vida. Priorizan la suavidad, la dulzura, son los grandes creadores del hogar y la familia. Son justos y equitativos, lo que los convierte en excelentes jueces, árbitros o mediadores</string>
+    <string name="mnp_Desc_Personalidad3">Son entusiastas y gozan de buen humor, buscan disfrutar de la vida, son creativos y grandes imaginadores. Muy propensos a desarrollarse en las artes, la literatura, la música y la pintura, excelentes comunicadores y amistosos por naturaleza. Por su capacidad de ser el centro de atención, a veces pueden ser algo charlatanes y superficiales, incluso entrometidos en las vidas ajenas.</string>
+    <string name="mnp_Desc_Personalidad4">Honestos, trabajadores, y grandes solucionadores de problemas y conflictos. Pragmáticos y prácticos en su mentalidad, son los grandes planificadores y organizadores, arquitectos, constructores, ingenieros. Son pobres comunicadores, por lo que pueden percibirse como rudos o violentos.</string>
+    <string name="mnp_Desc_Personalidad5">Son justos, equitativos, libres en mentalidad, ágiles y siempre en movimiento. Rechazan la rutina y lo acartonado, son inquietos y muy energéticos. Grandes viajeros y descubridores, científicos e investigadores tienen este número en sus nacimientos.</string>
+    <string name="mnp_Desc_Personalidad6">Aman la belleza y la paz, buscan la armonía y la calidez. Esto los hace temerosos en las confrontaciones, y no suelen ser ágiles a la hora de tomar decisiones. Son serviciales, amorosos, a veces inestables emocionalmente, aunque confiable en la intimidad.</string>
+    <string name="mnp_Desc_Personalidad7">Buscan el aprendizaje y el conocimiento constantemente, pueden aislarse de los demás por lograrlo. Tienen a ser solitarios en pro de la sabiduría y su búsqueda, son buenos profesores y conferencistas, con grandes capacidades mentales y de memoria. Observadores, analíticos y críticos, a veces tienden a la autodestrucción y al pesimismo en la búsqueda de sus metas.</string>
+    <string name="mnp_Desc_Personalidad8">Son grandes matemáticos, exitosos en asuntos bancarios, financieros e inversionistas. Son grandes soñadores y sus aspiraciones se elevan hasta el cielo. Pueden ser individualistas y algo egoístas a la hora de llevar adelante sus planes.</string>
+    <string name="mnp_Desc_Personalidad9">Son tolerantes y empáticos, buscan el desarrollo y están próximos a tener un nivel vibratorio superior. Son filósofos, líderes espirituales, personalidades caritativas y de bien del mundo. En casos mal desarrollados, pueden ser egoístas y orgullosos, con poco tacto social e interpersonal.</string>
+    <string name="mnp_Desc_Personalidad0">Se Produjo un error. Sin Información al respecto.</string>
+
+    <!--Strings Muestra Compatibilidad de Parejas-->
+    <string name="mcp_CompatibilidadAlta">Compatibilidad Alta</string>
+    <string name="mcp_CompatibilidadMedia">Compatibilidad Media</string>
+    <string name="mcp_CompatibilidadBaja">Compatibilidad Baja</string>
+
+    <string name="mcp_DescCompatibilidadAlta">Buena relacion, ustedes si que saben divertirse y pasarla bien. Suerte!!!</string>
+    <string name="mcp_DescCompatibilidadMedia">Si no hay nadie mejor andate con esta persona mientras te consigues alguien más</string>
+    <string name="mcp_DescCompatibilidadBaja">Nada de Relación, no son compatibles, Alejense uno del otro, si siguen juntos pueden propociar el apocalipsis.</string>
+    <string name="mcp_DescCompatibilidadNA">Sin información, pero ustedes arriesguense.</string>
+
+    <!--Strings Numero Personalidad Activity-->
+    <string name="npa_TitleActivity">Calcular Numero Personalidad</string>
+    <string name="npa_TextoFechaPersona">Tu Fecha Nacimiento:</string>
+    <string name="npa_TextoBotonCalcular">Calcula Tu Número</string>
+
+    <!--Strings Muestra Numero Personalidad Activity-->
+    <string name="mnp_TitleActvity">Tu Numero:</string>
+    <string name="mnp_TituloNumero">Numero</string>
+    <string name="mnp_DescripcionNumero">Descripcion</string>
+
+    <!--Strings Compatibilidad Amorosa Activity-->
+    <string name="cam_TitleActvity">Calcular Compatibilidad Amorosa</string>
+    <string name="cam_FechaPersona1">Tu Fecha Nacimiento:</string>
+    <string name="cam_FechaPersona2">Fecha de Tu "Prospecto":</string>
+    <string name="cam_TextoBotonCaulcular">Calcular Compatibilidad</string>
+
+    <!--Strings Muestra Compatibilidad Amorosa Activity-->
+    <string name="mca_TitleActvity">Niel Compatibilidad</string>
+    <string name="mca_NumeroPersona1">Tu Numero:</string>
+    <string name="mca_NumeroPersona2">Su Numero:</string>
+    <string name="mca_DescripcionCompatibilidad">Detalle</string>
+
+    <!--Strings Acerca de Activity-->
+    <string name= "ada_LabelDesarroladoPor">Desarrollado por:</string>
+    <string name= "ada_ValueDesarroladoPor">Guadalupe Rodríguez</string>
+    <string name= "ada_ValueContactoMail">guadaluperdzg@gmail.com</string>
+    <string name= "ada_ValueContactoTwitter">Lupitzyn</string>
+</resources>
